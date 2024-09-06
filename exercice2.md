@@ -28,9 +28,12 @@ Partie 3 : Analyse du stockage
 
 2.3.1
 
-![2 3 5](https://github.com/user-attachments/assets/2f809bf9-265c-4e45-82ed-ac46d97a8e8a)
+![2 3 2](https://github.com/user-attachments/assets/c9d63f03-8e2b-4a97-838a-bd196ac2a248)
+
 
 2.3.2
+
+Le serveur utilise une combinaison de RAID1 pour la redondance des données et LVM pour une gestion flexible du stockage, avec des systèmes de fichiers ext2 pour /boot et ext4 pour la racine du système.
 
 2.3.3 
 
