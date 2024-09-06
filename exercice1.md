@@ -10,3 +10,45 @@ Q.1.1.2
 
 ![VirtualBox_Checkpoint3-SRVWIN01_06_09_2024_10_19_20](https://github.com/user-attachments/assets/f8d45922-9315-433b-a66b-b17ebd014959)
 ![VirtualBox_Checkpoint3-SRVWIN01_06_09_2024_10_19_43](https://github.com/user-attachments/assets/6b41ee3f-2691-46f8-9d09-7f62b18ecd6a)
+
+Q.1.1.3
+
+![VirtualBox_Checkpoint3-SRVWIN01_06_09_2024_10_25_21](https://github.com/user-attachments/assets/99269425-b490-4560-a7cb-097175d3f1bd)
+
+
+Q.1.1.4 : ne comprend pas ce qu'il faut faire 
+
+Partie 2 : Restriction utilisateurs
+
+Q.1.2.1
+
+<img width="373" alt="Capture d’écran 2024-09-06 à 11 23 43" src="https://github.com/user-attachments/assets/8fe522a5-10b4-4576-bba6-ecab3f967d52">
+
+Q.1.2.2
+
+<img width="304" alt="Capture d’écran 2024-09-06 à 11 23 57" src="https://github.com/user-attachments/assets/264ca3f8-89db-42b3-a24b-0ee60c4c0f28">
+
+Q.1.2.3
+
+![VirtualBox_Checkpoint3-SRVWIN01_06_09_2024_10_56_40](https://github.com/user-attachments/assets/c8bd0879-964f-489b-9e6e-ebbb7d54951e)
+<img width="308" alt="Capture d’écran 2024-09-06 à 11 26 36" src="https://github.com/user-attachments/assets/79c8e04f-fd13-4865-b589-7cc8c8ad3dea">
+<img width="313" alt="Capture d’écran 2024-09-06 à 11 26 47" src="https://github.com/user-attachments/assets/55ff6403-765c-4517-afb0-c92f272a3c55">
+<img width="309" alt="Capture d’écran 2024-09-06 à 11 26 57" src="https://github.com/user-attachments/assets/e298c218-6033-4894-8e50-049e2e17e6fd">
+<img width="313" alt="Capture d’écran 2024-09-06 à 11 27 05" src="https://github.com/user-attachments/assets/11268fd6-fb62-4d5c-b167-f68f604337b0">
+
+Q.1.2.4
+
+![VirtualBox_Checkpoint3-SRVWIN01_06_09_2024_11_11_13](https://github.com/user-attachments/assets/87697501-9a8b-4151-80c8-e42310006e84)
+
+
+
+
+
+
+
+
+
+
+
+
+
