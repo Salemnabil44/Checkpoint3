@@ -6,13 +6,21 @@ Partie 1 : Gestion des utilisateurs
 
 2.1.2
 Préconisations pour sécuriser le compte :
+
 Mot de passe fort : Utilise un mot de passe complexe.
+
 Accès root : Utilise sudo au lieu d'un accès direct à root.
+
 Clés SSH : Configure l'authentification par clé SSH et désactive les connexions par mot de passe.
+
 Accès sudo limité : Ajoute l'utilisateur au groupe sudo avec des permissions restreintes.
-Expiration des mots de passe : Configure l'expiration régulière des mots de passe (chage -M 90).
+
+Expiration des mots de passe : Configure l'expiration régulière des mots de passe.
+
 Surveillance : Utilise des outils comme fail2ban pour surveiller les tentatives de connexion.
+
 Limiter les permissions : N'accorde que les droits nécessaires à l'utilisateur.
+
 
 Partie 2 : Configuration de SSH
 
@@ -47,8 +55,11 @@ Le serveur utilise une combinaison de RAID1 pour la redondance des données et L
 Partie 4 : Sauvegardes
 
 bareos-dir : Gère et coordonne les opérations de sauvegarde et de restauration.
+
 bareos-sd : Gère le stockage des données de sauvegarde sur des supports physiques.
+
 bareos-fd : Installe sur les clients, lit les fichiers pour les sauvegarder ou les restaure.
+
 
 Partie 5 : Filtrage et analyse réseau
 
