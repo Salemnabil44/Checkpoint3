@@ -86,11 +86,6 @@ Le périphérique /dev/md0 est configuré en RAID1, un niveau de RAID qui offre 
 Le système utilise LVM pour la gestion flexible du stockage sur le volume logique /dev/cp3--vg-root monté sur / et /dev/cp3--vg-swap_1 pour la partition swap. Le volume physique /dev/md0p5 est configuré en tant que membre LVM (LVM2_member), permettant une gestion dynamique et aisée des volumes logiques.
 Le volume logique /dev/cp3--vg-root utilise le système de fichiers ext4, ce qui est courant pour sa fiabilité et ses bonnes performances.
 
-
-RAID1 pour la redondance des données sur /boot.
-
-LVM pour une gestion flexible et dynamique des volumes logiques, avec ext4 pour le système de fichiers principal et un espace de swap dédié.
-
 ### 2.3.3 et 2.3.4 Ajout d'un nouveau disque de 8,00 Gio au serveur et réparer le volume RAID et ajout d'un nouveau volume logique LVM de 2 Gio qui servira à héberger des sauvegardes.
 
 ![2 3 4](https://github.com/user-attachments/assets/2b227345-b88c-4835-8832-1116f26464e6)
