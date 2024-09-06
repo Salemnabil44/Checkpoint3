@@ -5,6 +5,14 @@ Partie 1 : Gestion des utilisateurs
 ![VirtualBox_Checkpoint3-SRVLX01_06_09_2024_11_43_12](https://github.com/user-attachments/assets/90763aef-17e1-4026-8ff0-a4106bfa3500)
 
 2.1.2
+Préconisations pour sécuriser le compte :
+Mot de passe fort : Utilise un mot de passe complexe.
+Accès root : Utilise sudo au lieu d'un accès direct à root.
+Clés SSH : Configure l'authentification par clé SSH et désactive les connexions par mot de passe.
+Accès sudo limité : Ajoute l'utilisateur au groupe sudo avec des permissions restreintes.
+Expiration des mots de passe : Configure l'expiration régulière des mots de passe (chage -M 90).
+Surveillance : Utilise des outils comme fail2ban pour surveiller les tentatives de connexion.
+Limiter les permissions : N'accorde que les droits nécessaires à l'utilisateur.
 
 Partie 2 : Configuration de SSH
 
