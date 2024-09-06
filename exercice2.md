@@ -58,8 +58,7 @@ Disponible : 398 Mo
 Utilisation : 11%  
 
 
-#### Autres systèmes de fichiers temporaires (tmpfs) :  
-Utilisés pour les besoins temporaires en mémoire, comme /run, /dev/shm, /run/lock, et /run/user/0.
+#### Autres systèmes de fichiers temporaires (tmpfs) : Utilisés pour les besoins temporaires en mémoire, comme /run, /dev/shm, /run/lock, et /run/user/0.
 
 ### 2.3.2
 
