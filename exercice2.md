@@ -1,6 +1,6 @@
 Partie 1 : Gestion des utilisateurs
 
-2.1.1
+2.1.1 Création d'un utilisateur :
 
 ![VirtualBox_Checkpoint3-SRVLX01_06_09_2024_11_43_12](https://github.com/user-attachments/assets/90763aef-17e1-4026-8ff0-a4106bfa3500)
 
@@ -24,11 +24,11 @@ Limiter les permissions : N'accorde que les droits nécessaires à l'utilisateur
 
 Partie 2 : Configuration de SSH
 
-2.2.1 et 2.2.2
+2.2.1 et 2.2.2 Désactiver complètement l'accès à distance de l'utilisateur root et autoriser l'accès à distance à ton compte personnel uniquement.
 
 ![VirtualBox_Checkpoint3-SRVLX01_06_09_2024_12_24_05](https://github.com/user-attachments/assets/e5a57150-780e-4ef9-ac7a-5ba7fb32fd22)
 
-2.2.3
+2.2.3 Ajout d'un nouveau disque de 8,00 Gio au serveur et réparer le volume RAID.
 
 ![VirtualBox_Checkpoint3-SRVLX01_06_09_2024_12_20_23](https://github.com/user-attachments/assets/ab13bf55-7880-48f6-b01f-261f8cb8c037)
 
