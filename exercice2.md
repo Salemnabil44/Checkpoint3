@@ -40,19 +40,31 @@ Limiter les permissions : N'accorde que les droits nécessaires à l'utilisateur
 
 
 /dev/mapper/cp3--vg-root :
+
 Système de fichiers : ext4
+
 Monté sur : /
-Taille : 2,7 GiB (1,5 GiB utilisés, 1,1 GiB disponibles)
+
+Taille : 2,7 Go (1,5 GiB utilisés, 1,1 Go disponibles)
+
 Type de stockage : LVM
 
+
 /dev/md0p1 :
+
 Système de fichiers : ext2
+
 Monté sur : /boot
-Taille : 488,3 MiB (49 MiB utilisés, 398 MiB disponibles)
+
+Taille : 488,3 Mo (49 Mo utilisés, 398 MiB disponibles)
+
 Type de stockage : RAID1
 
+
 /dev/cp3--vg-swap_1 :
+
 Système de fichiers : swap
+
 Utilisé pour : Espace d'échange (Swap)
 
 2.3.2
