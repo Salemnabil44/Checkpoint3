@@ -5,7 +5,7 @@
 ![VirtualBox_Checkpoint3-SRVLX01_06_09_2024_11_43_12](https://github.com/user-attachments/assets/90763aef-17e1-4026-8ff0-a4106bfa3500)
 
 2.1.2
-Préconisations pour sécuriser le compte :
+Préconisations pour le compte :
 
 Mot de passe fort : Utilise un mot de passe complexe.
 
