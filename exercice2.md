@@ -28,7 +28,7 @@ Limiter les permissions : N'accorde que les droits nécessaires à l'utilisateur
 
 ![VirtualBox_Checkpoint3-SRVLX01_06_09_2024_12_24_05](https://github.com/user-attachments/assets/e5a57150-780e-4ef9-ac7a-5ba7fb32fd22)
 
-2.2.3 Ajout d'un nouveau disque de 8,00 Gio au serveur et réparer le volume RAID.
+2.2.3 Mise en place d'une authentification par clé valide et désactiver l'authentification par mot de passe (screen ci-dessus)
 
 ![VirtualBox_Checkpoint3-SRVLX01_06_09_2024_12_20_23](https://github.com/user-attachments/assets/ab13bf55-7880-48f6-b01f-261f8cb8c037)
 
