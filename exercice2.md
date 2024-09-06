@@ -41,30 +41,20 @@ Limiter les permissions : N'accorde que les droits nécessaires à l'utilisateur
 #### /dev/mapper/cp3--vg-root :
 
 Système de fichiers : ext4
-
 Monté sur : /
-
 Taille : 2,7 Go
-
 Utilisé : 1,5 Go
-
 Disponible : 1,1 Go
-
 Utilisation : 59%
 
 
 #### /dev/md0p1 :
 
 Système de fichiers : ext2
-
 Monté sur : /boot
-
 Taille : 471 Mo
-
 Utilisé : 49 Mo
-
 Disponible : 398 Mo
-
 Utilisation : 11%
 
 
