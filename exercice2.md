@@ -47,7 +47,7 @@ Le serveur utilise une combinaison de RAID1 pour la redondance des données et L
 
 ![2 3 4](https://github.com/user-attachments/assets/2b227345-b88c-4835-8832-1116f26464e6)
 
-2.3.5 Il reste 1.79 GiB d'espace libre dans le groupe de volumes cp3-vg. Cet espace peut être utilisé pour créer de nouveaux volumes logiques ou pour étendre les volumes logiques existants.
+2.3.5 Il reste 1.79 Go d'espace libre dans le groupe de volumes cp3-vg. Cet espace peut être utilisé pour créer de nouveaux volumes logiques ou pour étendre les volumes logiques existants.
 
 ![2 3 5](https://github.com/user-attachments/assets/a7bd2496-6b47-46b7-83eb-60f1d103b64d)
 
