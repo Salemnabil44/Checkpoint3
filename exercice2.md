@@ -38,16 +38,19 @@ Limiter les permissions : N'accorde que les droits nécessaires à l'utilisateur
 
 ![Capture d’écran 2024-09-06 à 15 41 48](https://github.com/user-attachments/assets/f2566d7b-cc29-4358-b92f-cac1127312fb)
 
-
 /dev/mapper/cp3--vg-root :
 
 Système de fichiers : ext4
 
 Monté sur : /
 
-Taille : 2,7 Go (1,5 GiB utilisés, 1,1 Go disponibles)
+Taille : 2,7 Go
 
-Type de stockage : LVM
+Utilisé : 1,5 Go
+
+Disponible : 1,1 Go
+
+Utilisation : 59%
 
 
 /dev/md0p1 :
@@ -56,16 +59,18 @@ Système de fichiers : ext2
 
 Monté sur : /boot
 
-Taille : 488,3 Mo (49 Mo utilisés, 398 MiB disponibles)
+Taille : 471 Mo
 
-Type de stockage : RAID1
+Utilisé : 49 Mo
+
+Disponible : 398 Mo
+
+Utilisation : 11%
 
 
-/dev/cp3--vg-swap_1 :
+Autres systèmes de fichiers temporaires (tmpfs) :
 
-Système de fichiers : swap
-
-Utilisé pour : Espace d'échange (Swap)
+Utilisés pour les besoins temporaires en mémoire, comme /run, /dev/shm, /run/lock, et /run/user/0.
 
 ### 2.3.2
 
