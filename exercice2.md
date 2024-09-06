@@ -43,11 +43,11 @@ Limiter les permissions : N'accorde que les droits nécessaires à l'utilisateur
 
 Le serveur utilise une combinaison de RAID1 pour la redondance des données et LVM pour une gestion flexible du stockage, avec des systèmes de fichiers ext2 pour /boot et ext4 pour la racine du système.
 
-2.3.3 et 2.3.4
+2.3.3 et 2.3.4 Ajout d'un nouveau disque de 8,00 Gio au serveur et réparer le volume RAID et ajout d'un nouveau volume logique LVM de 2 Gio qui servira à héberger des sauvegardes.
 
 ![2 3 4](https://github.com/user-attachments/assets/2b227345-b88c-4835-8832-1116f26464e6)
 
-2.3.5
+2.3.5 Iil reste 1.79 GiB d'espace libre dans le groupe de volumes cp3-vg. Cet espace peut être utilisé pour créer de nouveaux volumes logiques ou pour étendre les volumes logiques existants.
 
 ![2 3 5](https://github.com/user-attachments/assets/a7bd2496-6b47-46b7-83eb-60f1d103b64d)
 
@@ -63,25 +63,29 @@ bareos-fd : Installe sur les clients, lit les fichiers pour les sauvegarder ou l
 
 ## Partie 5 : Filtrage et analyse réseau
 
-2.5.1
+2.5.1  les règles appliquées sur Netfilter sont les suivantes : 
 
 ![2 5 1](https://github.com/user-attachments/assets/c32cf710-89f0-4257-9712-f6288d2a67d4)
 
 
-2.5.2
-
-Les communications autorisées incluent :
+2.5.2  Les types de communications sont autorisées sont les suivantes :
 
 Les connexions déjà établies ou liées à une connexion déjà existante.
+
 Le trafic loopback interne (lo).
+
 Le trafic ICMP, y compris les pings.
+
 Les connexions SSH sur le port 22.
 
-2.5.3
+2.5.3 Les types de communications interdit sont les suivantes : 
 
 Toutes les communications qui ne correspondent pas aux règles d'autorisation mentionnées ci-dessus sont interdites en raison de la politique par défaut drop. Cela inclut tous les autres ports et types de trafic non explicitement autorisés.
 
-2.5.4
+2.5.4 Ajout des règles nécessaires pour autoriser bareos à communiquer avec les clients
+
+![2 5 4](https://github.com/user-attachments/assets/b8df2f8b-4e45-4959-8546-a522b66b6199)
+
 
 Partie 6 : Analyse de logs
 
