@@ -77,14 +77,19 @@ Utilisés pour les besoins temporaires en mémoire, comme /run, /dev/shm, /run/l
 ![Capture d’écran 2024-09-06 à 15 41 57](https://github.com/user-attachments/assets/a65c32e2-da86-4248-b071-8bf381a0a42d)
 
 
-RAID1 :
-Utilisé par /dev/md0, qui est monté sur /boot. Ce système de stockage offre de la redondance en dupliquant les données sur deux disques.
+ le type de système de stockage utilisé sur votre serveur est :
 
-LVM (Logical Volume Manager) :
-Utilisé par les volumes /dev/mapper/cp3--vg-root (monté sur /) et /dev/cp3--vg-swap_1 (Swap). LVM permet une gestion flexible du stockage, facilitant l'extension et la gestion des volumes logiques.
+#### RAID1 :
+Le périphérique /dev/md0 est configuré en RAID1, un niveau de RAID qui offre une redondance des données en les dupliquant sur plusieurs disques. Ce type de stockage est utilisé pour la partition /boot (/dev/md0p1), qui utilise le système de fichiers ext2.
+
+#### LVM (Logical Volume Manager) :
+Le système utilise LVM pour la gestion flexible du stockage sur le volume logique /dev/cp3--vg-root monté sur / et /dev/cp3--vg-swap_1 pour la partition swap. Le volume physique /dev/md0p5 est configuré en tant que membre LVM (LVM2_member), permettant une gestion dynamique et aisée des volumes logiques.
+Le volume logique /dev/cp3--vg-root utilise le système de fichiers ext4, ce qui est courant pour sa fiabilité et ses bonnes performances.
 
 
-Le serveur utilise une combinaison de RAID1 pour la redondance des données et LVM pour une gestion flexible du stockage, avec des systèmes de fichiers ext2 pour /boot et ext4 pour la racine du système.
+RAID1 pour la redondance des données sur /boot.
+
+LVM pour une gestion flexible et dynamique des volumes logiques, avec ext4 pour le système de fichiers principal et un espace de swap dédié.
 
 ### 2.3.3 et 2.3.4 Ajout d'un nouveau disque de 8,00 Gio au serveur et réparer le volume RAID et ajout d'un nouveau volume logique LVM de 2 Gio qui servira à héberger des sauvegardes.
 
