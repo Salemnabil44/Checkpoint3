@@ -38,7 +38,7 @@ Limiter les permissions : N'accorde que les droits nécessaires à l'utilisateur
 
 ![Capture d’écran 2024-09-06 à 15 41 48](https://github.com/user-attachments/assets/f2566d7b-cc29-4358-b92f-cac1127312fb)
 
-/dev/mapper/cp3--vg-root :
+#### /dev/mapper/cp3--vg-root :
 
 Système de fichiers : ext4
 
@@ -53,7 +53,7 @@ Disponible : 1,1 Go
 Utilisation : 59%
 
 
-/dev/md0p1 :
+#### /dev/md0p1 :
 
 Système de fichiers : ext2
 
@@ -68,7 +68,7 @@ Disponible : 398 Mo
 Utilisation : 11%
 
 
-Autres systèmes de fichiers temporaires (tmpfs) :
+#### Autres systèmes de fichiers temporaires (tmpfs) :
 
 Utilisés pour les besoins temporaires en mémoire, comme /run, /dev/shm, /run/lock, et /run/user/0.
 
