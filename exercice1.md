@@ -36,6 +36,7 @@ Q.1.2.3 : Stratégie de mot de passe pour durcir les comptes des utilisateurs de
 
 ![VirtualBox_Checkpoint3-SRVWIN01_06_09_2024_10_56_40](https://github.com/user-attachments/assets/c8bd0879-964f-489b-9e6e-ebbb7d54951e)
 
+
 <img width="308" alt="Capture d’écran 2024-09-06 à 11 26 36" src="https://github.com/user-attachments/assets/79c8e04f-fd13-4865-b589-7cc8c8ad3dea">
 
 <img width="313" alt="Capture d’écran 2024-09-06 à 11 26 47" src="https://github.com/user-attachments/assets/55ff6403-765c-4517-afb0-c92f272a3c55">
