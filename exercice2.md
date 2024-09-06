@@ -87,7 +87,7 @@ Toutes les communications qui ne correspondent pas aux règles d'autorisation me
 ![2 5 4](https://github.com/user-attachments/assets/b8df2f8b-4e45-4959-8546-a522b66b6199)
 
 
-Partie 6 : Analyse de logs
+## Partie 6 : Analyse de logs
 
-Pour lister les 10 derniers échecs de connexion sur le serveur en indiquant la date, l'heure de la tentative et l'adresse IP de la machine ayant fait la tentative, nous allons utiliser la commande suivante : sudo grep "Failed password" /var/log/auth.log | tail -n 10 | awk '{print $1, $2, $3, $11}'
+Pour lister les 10 derniers échecs de connexion sur le serveur en indiquant la date, l'heure de la tentative et l'adresse IP de la machine ayant fait la tentative, nous allons utiliser la commande suivante : sudo grep "Failed password" /var/log/auth.log | tail -n 10 
 La commande n'affiche aucun échec de connexion.
