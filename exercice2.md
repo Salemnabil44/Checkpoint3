@@ -36,10 +36,36 @@ Limiter les permissions : N'accorde que les droits nécessaires à l'utilisateur
 
 2.3.1
 
-![2 3 2](https://github.com/user-attachments/assets/c9d63f03-8e2b-4a97-838a-bd196ac2a248)
+![Capture d’écran 2024-09-06 à 15 41 48](https://github.com/user-attachments/assets/f2566d7b-cc29-4358-b92f-cac1127312fb)
 
+
+/dev/mapper/cp3--vg-root :
+Système de fichiers : ext4
+Monté sur : /
+Taille : 2,7 GiB (1,5 GiB utilisés, 1,1 GiB disponibles)
+Type de stockage : LVM
+
+/dev/md0p1 :
+Système de fichiers : ext2
+Monté sur : /boot
+Taille : 488,3 MiB (49 MiB utilisés, 398 MiB disponibles)
+Type de stockage : RAID1
+
+/dev/cp3--vg-swap_1 :
+Système de fichiers : swap
+Utilisé pour : Espace d'échange (Swap)
 
 2.3.2
+
+![Capture d’écran 2024-09-06 à 15 41 57](https://github.com/user-attachments/assets/a65c32e2-da86-4248-b071-8bf381a0a42d)
+
+
+RAID1 :
+Utilisé par /dev/md0, qui est monté sur /boot. Ce système de stockage offre de la redondance en dupliquant les données sur deux disques.
+
+LVM (Logical Volume Manager) :
+Utilisé par les volumes /dev/mapper/cp3--vg-root (monté sur /) et /dev/cp3--vg-swap_1 (Swap). LVM permet une gestion flexible du stockage, facilitant l'extension et la gestion des volumes logiques.
+
 
 Le serveur utilise une combinaison de RAID1 pour la redondance des données et LVM pour une gestion flexible du stockage, avec des systèmes de fichiers ext2 pour /boot et ext4 pour la racine du système.
 
