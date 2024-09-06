@@ -1,4 +1,4 @@
-Partie 1 : Gestion des utilisateurs
+## Partie 1 : Gestion des utilisateurs
 
 2.1.1 Création d'un utilisateur :
 
@@ -22,7 +22,7 @@ Surveillance : Utilise des outils comme fail2ban pour surveiller les tentatives 
 Limiter les permissions : N'accorde que les droits nécessaires à l'utilisateur.
 
 
-Partie 2 : Configuration de SSH
+## Partie 2 : Configuration de SSH
 
 2.2.1 et 2.2.2 Désactiver complètement l'accès à distance de l'utilisateur root et autoriser l'accès à distance à ton compte personnel uniquement.
 
@@ -32,7 +32,7 @@ Partie 2 : Configuration de SSH
 
 ![VirtualBox_Checkpoint3-SRVLX01_06_09_2024_12_20_23](https://github.com/user-attachments/assets/ab13bf55-7880-48f6-b01f-261f8cb8c037)
 
-Partie 3 : Analyse du stockage
+## Partie 3 : Analyse du stockage
 
 2.3.1
 
@@ -52,7 +52,7 @@ Le serveur utilise une combinaison de RAID1 pour la redondance des données et L
 ![2 3 5](https://github.com/user-attachments/assets/a7bd2496-6b47-46b7-83eb-60f1d103b64d)
 
 
-Partie 4 : Sauvegardes
+## Partie 4 : Sauvegardes
 
 bareos-dir : Gère et coordonne les opérations de sauvegarde et de restauration.
 
@@ -61,7 +61,7 @@ bareos-sd : Gère le stockage des données de sauvegarde sur des supports physiq
 bareos-fd : Installe sur les clients, lit les fichiers pour les sauvegarder ou les restaure.
 
 
-Partie 5 : Filtrage et analyse réseau
+## Partie 5 : Filtrage et analyse réseau
 
 2.5.1
 
