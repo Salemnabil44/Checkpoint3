@@ -74,14 +74,16 @@ Le périphérique /dev/md0 est configuré en RAID1, un niveau de RAID qui offre 
 Le système utilise LVM pour la gestion flexible du stockage sur le volume logique /dev/cp3--vg-root monté sur / et /dev/cp3--vg-swap_1 pour la partition swap. Le volume physique /dev/md0p5 est configuré en tant que membre LVM (LVM2_member), permettant une gestion dynamique et aisée des volumes logiques.
 Le volume logique /dev/cp3--vg-root utilise le système de fichiers ext4, ce qui est courant pour sa fiabilité et ses bonnes performances.
 
-### 2.3.3 et 2.3.4 Ajout d'un nouveau disque de 8,00 Gio au serveur et réparer le volume RAID et ajout d'un nouveau volume logique LVM de 2 Gio qui servira à héberger des sauvegardes.
+### 2.3.3 Ajout d'un nouveau disque de 8,00 Gio au serveur et réparer le volume RAID
 
-![2 3 4](https://github.com/user-attachments/assets/2b227345-b88c-4835-8832-1116f26464e6)
+![VirtualBox_Checkpoint3-SRVLX01_06_09_2024_16_23_52](https://github.com/user-attachments/assets/371297b5-a5d3-46c8-8a42-c3137eb44b39)
 
-2.3.5 Il reste 1.79 Go d'espace libre dans le groupe de volumes cp3-vg. Cet espace peut être utilisé pour créer de nouveaux volumes logiques ou pour étendre les volumes logiques existants.
+![VirtualBox_Checkpoint3-SRVLX01_06_09_2024_16_30_39](https://github.com/user-attachments/assets/b6c14c1c-69a4-4cb0-9f5e-db3666298b32)
 
-![2 3 5](https://github.com/user-attachments/assets/a7bd2496-6b47-46b7-83eb-60f1d103b64d)
+![VirtualBox_Checkpoint3-SRVLX01_06_09_2024_16_30_53](https://github.com/user-attachments/assets/e950a18c-df45-4a5c-8a37-3df0c15415ef)
 
+
+Le RAID md0 est en bon état et fonctionne correctement. Le fait que [UU] soit affiché signifie que sdb1 a été réparé ou synchronisé avec succès et que les deux disques sont actifs et opérationnels. Il n'y a pas de problème de synchronisation ou de disque défaillant signalé dans la sortie de /proc/mdstat.
 
 ## Partie 4 : Sauvegardes
 
