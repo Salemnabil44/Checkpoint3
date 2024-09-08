@@ -82,6 +82,8 @@ Le volume logique /dev/cp3--vg-root utilise le système de fichiers ext4, ce qui
 
 ![VirtualBox_Checkpoint3-SRVLX01_06_09_2024_16_30_53](https://github.com/user-attachments/assets/e950a18c-df45-4a5c-8a37-3df0c15415ef)
 
+Le RAID md0 est en bon état et fonctionne correctement. Le fait que [UU] soit affiché signifie que sdb1 a été réparé ou synchronisé avec succès et que les deux disques sont actifs et opérationnels. Il n'y a pas de problème de synchronisation ou de disque défaillant signalé dans la sortie de /proc/mdstat.
+
 ### 2.3.4
 
 Voici les étapes qui permettent de formater le volume logique lv_backups, de créer le point de montage approprié, et de le monter automatiquement au démarrage pour qu'il soit prêt à accueillir les sauvegardes.
@@ -108,9 +110,6 @@ Voici les étapes qui permettent de formater le volume logique lv_backups, de cr
 Il reste 1,79 Gio d'espace disponible dans le groupe de volumes cp3-vg.
 
 ![VirtualBox_Checkpoint3-SRVLX01_08_09_2024_21_08_58](https://github.com/user-attachments/assets/3016cd1f-aa4d-4496-b158-5f5dea9e2f60)
-
-
-Le RAID md0 est en bon état et fonctionne correctement. Le fait que [UU] soit affiché signifie que sdb1 a été réparé ou synchronisé avec succès et que les deux disques sont actifs et opérationnels. Il n'y a pas de problème de synchronisation ou de disque défaillant signalé dans la sortie de /proc/mdstat.
 
 ## Partie 4 : Sauvegardes
 
